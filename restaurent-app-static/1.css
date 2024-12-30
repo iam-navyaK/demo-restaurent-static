@@ -1,0 +1,65 @@
+/*universal styles*/
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Caprasimo', cursive;
+}
+/*header*/
+header{
+      background-image: url(https://img.freepik.com/free-photo/double-hamburger-isolated-white-background-fresh-burger-fast-food-with-beef-cream-cheese_90220-1192.jpg?w=2000);
+      background-size: cover;
+      background-position: right;
+      position: relative;
+}
+/*title of header*/
+.title{
+background-color: rgb(231, 233, 235,0.5);
+}
+.title h1{
+    text-shadow: 2px 2px 2px rgb(243, 243, 117);
+}
+.title p{
+    font-weight: 200;
+    color: rgb(102, 32, 32);
+}
+/*banner*/
+.banner{
+    position: absolute;
+    bottom: -30px;
+    border: 5px solid rgba(255, 255, 255, 0.781);
+    border-radius: 10%;
+    color: rgb(71, 46, 95);
+    text-shadow: 2px 2px 4px rgb(117, 117, 42);
+    background-color: rgb(211, 169, 113,0.7);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*bg for main*/
+.main{
+    background-image: url(https://media.worldnomads.com/LearnImages/food-photography-in-article1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(167, 81, 81);
+    background-color: rgb(235, 169, 122);
+}
+.footer-img{
+    width: 200px;
+    border-radius: 60%;
+    text-shadow: 0px 1px 7px white;
+}
+/*equal height of img*/
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
